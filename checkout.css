@@ -106,23 +106,23 @@ header {
      margin-right: 4%;
   }
   #contact{
-    float: inline-start;
     color: #000f01;
     padding: 5%;
     margin: 5%;
     text-align: justify;
+    width: 30%;
   }
   #blog{
-    float: inline-start;
     color: #000f01;
     padding: 5%;
     margin: 5%;
+    width: 30%;
   }
   #calendar{
-    float: inline-end;
     color: #000f01;
     padding: 5%;
     margin: 5%;
+    width: 30%;
   }
   footer{
     text-align: end;

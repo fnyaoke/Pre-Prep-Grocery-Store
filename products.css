@@ -157,7 +157,8 @@ font-size: 20px;
 }
 .bottom{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
     padding: 2%;
      border: 3px whitesmoke;
      box-shadow: rgb(29, 243, 1);
@@ -166,27 +167,29 @@ font-size: 20px;
      margin-left: 0%;
      margin-right: 0%;
   }
-  #contact{
+  /* /
+  .contact{
     float: inline-start;
     color: #000f01;
     padding: 5%;
     margin: 5%;
     text-align: justify;
   }
-  #blog{
+  .blog{
     float: inline-start;
     color: #000f01;
     padding: 5%;
     margin: 5%;
   }
-  #calendar{
+  .calendar{
     float: inline-end;
     color: #000f01;
     padding: 5%;
     margin: 5%;
-  }
+  } */
   footer{
     text-align: end;
      background-color: rgb(1, 34, 1);
      text-align: center; 
+     color: white;
   }
