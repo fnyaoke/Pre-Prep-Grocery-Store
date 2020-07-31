@@ -86,6 +86,15 @@ header {
   text-decoration: none;
   font-size: 17px;
 }
+.categories> ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+.categories> li >a {
+    display: block;
+  }
 .categories a:hover{
 
   background-color: rgb(11, 31, 4);
@@ -101,7 +110,7 @@ header {
     padding: 1%;
     margin-left: 2%;
     margin-right: 0;
-    background-color: rgb(136, 170, 67);
+    background-color: rgb(243, 245, 240);
     justify-content: space-around;
 }
 .vegetables, .fruits, .herbs {
@@ -121,6 +130,30 @@ background-color: rgb(7, 26, 1);
 color: whitesmoke;
 box-shadow:3px 3px 5px yellow;
 border-bottom: white;
+font-size: 20px;
+}
+.trial {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.trial {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.trial:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 .bottom{
     display: flex;
@@ -130,30 +163,30 @@ border-bottom: white;
      box-shadow: rgb(29, 243, 1);
      background-color: rgb(238, 229, 229);
      color: rgb(1, 27, 1);
-     margin-left: 5%;
-     margin-right: 5%;
+     margin-left: 0%;
+     margin-right: 0%;
   }
   #contact{
     float: inline-start;
     color: #000f01;
-    padding: 3%;
+    padding: 5%;
     margin: 5%;
     text-align: justify;
   }
   #blog{
     float: inline-start;
     color: #000f01;
-    padding: 3%;
+    padding: 5%;
     margin: 5%;
   }
   #calendar{
     float: inline-end;
     color: #000f01;
-    padding: 3%;
+    padding: 5%;
     margin: 5%;
   }
   footer{
-    display: flex;
+    text-align: end;
      background-color: rgb(1, 34, 1);
      text-align: center; 
   }

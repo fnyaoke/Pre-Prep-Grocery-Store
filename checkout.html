@@ -14,15 +14,106 @@
         <p class="top">The best store for fresh, organic produce in Nairobi</p>
         <div class="start">
             
-               <a href="about">About Us</a>
-                <a href="products">Products</a>
+               <a href="index.html">About Us</a>
+                <a href="products.html">Products</a>
                 <a href="account">Account</a>
                 <a href="partners">Partners</a>
                 <a href="blog">Blog</a>
-                <a href="contact">Contact us</a>
+                <a href="index.html">Contact us</a>
         </div>
     </header>
-    
+    <div class="holder">
+        <div class="categories">
+            <nav> 
+                <ul>
+                 <li><a href="products.html">Fresh Vegetables</a></li>
+                 <br>
+                 <li><a href="products.html">Fruits</a></li>
+                 <br>
+                 <li><a href="products.html">Spices and Herbs</a></li>
+                 <br>
+                 <li><a href="products.html">Meat Products</a></li>
+                 <br>
+                 <li><a href="products.html">Dairy Products</a></li>
+             </ul>
+         </nav>  
+         </div>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder=" ">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="name@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder=" ">
+                  <label for="city"><i class="fa fa-institution"></i> County/City/Town</label>
+                  <input type="text" id="city" name="city" placeholder=" ">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="zip">Zip Code</label>
+                      <input type="text" id="zip" name="zip" placeholder="00100">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">MPESA</label>
+                  
+                  <label for="cname">Name on Transaction</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Your Name">
+                  <label for="ccnum">Transaction Code</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="MPESA Transaction Code">
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+        </div>
+      
+      </div>
+      <div class="reviews">
+        <h3>Client Reviews</h3>
+        <p>"The best fresh vegetables you will find in the city" ~ Alot Mit</p>
+        <p>"The meat products are always tender and choice cuts" ~ Ring'o Nyamore</p>
+        <p>"I have to order early because the daily stock gets finished early too and I can no longer stand groceries from anywhere else" ~ Ahero Mabecho</p>
+    </div>
+</div>
+
+<div class="bottom">
+    <div class="contacts">
+        <p>Contacts</p>
+    <p>Tel: 0201346756</p>
+<p>Email: orders@nyaokesfarmfresh.com</p></div>
+    <br>
+    <div class="blog">
+        <p>&nbsp; &nbsp; Blog&nbsp; &nbsp; </p>
+        <p>Read articles on farming on our Blog</p><br><br></div>
+    <br>
+    <div class="calendar">
+        <p>Date/Time: <span id="datetime"></span></p></div>
+        <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            </script>
+</div>
+</header>
+<br>
+<br>   
+<footer>
+    <p>Copyright: Website designed by Florence Nyaoke</p>
+</footer>
 </body>
 
-</html>>
+</html>

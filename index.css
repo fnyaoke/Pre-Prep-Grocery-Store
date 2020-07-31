@@ -131,7 +131,7 @@ padding: 2%;
   margin: 5%;
 }
 footer{
-  display: flex;
+  float: right;
    background-color: rgb(1, 34, 1);
    text-align: center; 
 }

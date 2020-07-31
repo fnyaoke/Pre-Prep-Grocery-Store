@@ -69,3 +69,66 @@ header {
   background-color: #4CAF50;
   color: white;
 }
+.holder{
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories{
+    margin-left: 1%;
+    padding: 2%;
+    width: 15%;
+    background-color: yellowgreen;
+}
+.row{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: wheat;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.reviews{
+    margin-right: 1%;
+    width: 30%;
+    padding: 1%;
+    background-color: yellowgreen;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+     border: 3px whitesmoke;
+     box-shadow: rgb(29, 243, 1);
+     background-color: rgb(238, 229, 229);
+     color: rgb(1, 27, 1);
+     margin-left: 1%;
+     margin-right: 4%;
+  }
+  #contact{
+    float: inline-start;
+    color: #000f01;
+    padding: 5%;
+    margin: 5%;
+    text-align: justify;
+  }
+  #blog{
+    float: inline-start;
+    color: #000f01;
+    padding: 5%;
+    margin: 5%;
+  }
+  #calendar{
+    float: inline-end;
+    color: #000f01;
+    padding: 5%;
+    margin: 5%;
+  }
+  footer{
+    text-align: end;
+     background-color: rgb(1, 34, 1);
+     color: white;
+     text-align: center; 
+     margin-right: 4%;
+     margin-left: 1%;
+  }
