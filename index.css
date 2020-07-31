@@ -13,13 +13,14 @@ header {
       background-size: cover;
       text-align: center;
       text-decoration-color: rgb(14, 177, 14);
-      color: rgb(254, 255, 254);
+      color: rgb(1, 27, 1);
+      height: 95%;
   }
   h1{
     padding: 10px;
-    margin-top: 25%;
     font-size: xx-large;
     text-shadow: 3px 3px 5px rgb(29, 243, 1);
+    color: white;
   }
   .top {
     font-size: large;
@@ -31,7 +32,6 @@ header {
     animation-name: slidein;
     animation-iteration-count: infinite;
 }
-
 @keyframes slidein {
   0% {
     margin-left: 0%;
@@ -72,15 +72,66 @@ header {
 h3{
   color: #1bf022;
   background-color: #000f01;
+  margin-top: 0;
 }
-.container{
+.overall{
   display: flex;
   flex-wrap: wrap;
   background-color: #f2f2f2;
+  align-items: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-content: flex-start;
+}
+.about{
   float: inline-start;
+  width: 30%;
+  padding: 2%;
+}
+.products{
+  float: inline-start;
+  text-align: justify;
+  width: 30%;
+  padding: 1%;
+}
+.reviews{
+float: right;
+align-content: justify;
+width: 30%;
+padding: 2%;
+}
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+   border: 3px whitesmoke;
+   box-shadow: rgb(29, 243, 1);
+   background-color: rgb(238, 229, 229);
+   color: rgb(1, 27, 1);
+   margin-left: 5%;
+   margin-right: 5%;
+}
+#contact{
+  float: inline-start;
+  color: #000f01;
+  padding: 3%;
+  margin: 5%;
+  text-align: justify;
+}
+#blog{
+  float: inline-start;
+  color: #000f01;
+  padding: 3%;
+  margin: 5%;
+}
+#calendar{
+  float: inline-end;
+  color: #000f01;
+  padding: 3%;
+  margin: 5%;
 }
 footer{
   display: flex;
    background-color: rgb(1, 34, 1);
-   text-align: center;
+   text-align: center; 
 }

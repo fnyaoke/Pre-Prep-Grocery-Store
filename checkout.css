@@ -1,0 +1,71 @@
+body {
+    font-family: 'Work Sans', sans-Serif;
+  }
+  
+header {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; 
+      background-image: url(https://sustainablepulse.com/wp-content/uploads/2014/12/organic-644x363.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      text-decoration-color: rgb(14, 177, 14);
+      color: rgb(1, 27, 1);
+      height: 25%;
+  }
+  h1{
+    padding: 10px;
+    font-size: xx-large;
+    text-shadow: 3px 3px 5px rgb(29, 243, 1);
+    color: white;
+  }
+  .top {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(233, 165, 40);
+    background-color: rgb(1, 32, 1);
+    font-style: oblique;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+ /* Add a black background color to the top navigation */
+.start {
+  background-color: #011d01;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.start a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.start a:hover {
+  background-color: rgb(87, 243, 40);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.start a.active {
+  background-color: #4CAF50;
+  color: white;
+}
